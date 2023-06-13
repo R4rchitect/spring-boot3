@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AppWsWhisperApplication<app-ws-whisper>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.teamra.appwswhisper.AppWsWhisperApplication",
+            "projectName": "app-ws-whisper",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
