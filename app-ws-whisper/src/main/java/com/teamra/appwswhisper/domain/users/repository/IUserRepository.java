@@ -1,7 +1,7 @@
 package com.teamra.appwswhisper.domain.users.repository;
 import com.teamra.appwswhisper.domain.users.model.User;
 
-public interface UserRepository {
+public interface IUserRepository {
     
  //   @Query(value="SELECT * FROM usuarios where id_usuario = :id_usuario", nativeQuery=true)
     User findByIdUser(Integer id);

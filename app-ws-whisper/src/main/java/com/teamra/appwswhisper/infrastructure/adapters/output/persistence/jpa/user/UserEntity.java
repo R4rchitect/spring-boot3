@@ -1,4 +1,4 @@
-package com.teamra.appwswhisper.infrastructure.repository.jpa.user;
+package com.teamra.appwswhisper.infrastructure.adapters.output.persistence.jpa.user;
 
 import java.io.Serializable;
 import java.util.Date;

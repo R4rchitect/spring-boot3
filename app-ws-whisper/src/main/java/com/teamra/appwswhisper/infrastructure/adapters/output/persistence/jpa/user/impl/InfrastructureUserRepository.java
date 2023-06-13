@@ -1,18 +1,18 @@
-package com.teamra.appwswhisper.infrastructure.repository.jpa.user.impl;
+package com.teamra.appwswhisper.infrastructure.adapters.output.persistence.jpa.user.impl;
 
 
 
 import org.springframework.stereotype.Component;
 
 import com.teamra.appwswhisper.domain.users.model.User;
-import com.teamra.appwswhisper.domain.users.repository.UserRepository;
-import com.teamra.appwswhisper.infrastructure.repository.jpa.user.SpringDataJpaUserRepository;
-import com.teamra.appwswhisper.infrastructure.repository.jpa.user.UserEntity;
+import com.teamra.appwswhisper.domain.users.repository.IUserRepository;
+import com.teamra.appwswhisper.infrastructure.adapters.output.persistence.jpa.user.SpringDataJpaUserRepository;
+import com.teamra.appwswhisper.infrastructure.adapters.output.persistence.jpa.user.UserEntity;
 
 
 
 @Component
-public class InfrastructureUserRepository implements UserRepository{
+public class InfrastructureUserRepository implements IUserRepository{
 
     public final SpringDataJpaUserRepository userRepository;
 
