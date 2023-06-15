@@ -1,4 +1,4 @@
-package com.teamra.appwswhisper.infrastructure.adapters.input.rest;
+package com.teamra.appwswhisper.users.infrastructure.adapters.input.rest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.teamra.appwswhisper.domain.users.model.User;
-import com.teamra.appwswhisper.domain.users.service.UserService;
+import com.teamra.appwswhisper.users.domain.model.User;
+import com.teamra.appwswhisper.users.domain.service.UserService;
 
 @RestController
 @RequestMapping("/users")

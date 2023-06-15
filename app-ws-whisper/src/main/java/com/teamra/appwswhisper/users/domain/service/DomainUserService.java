@@ -1,9 +1,9 @@
-package com.teamra.appwswhisper.domain.users.service;
+package com.teamra.appwswhisper.users.domain.service;
 
 import org.springframework.stereotype.Service;
 
-import com.teamra.appwswhisper.domain.users.model.User;
-import com.teamra.appwswhisper.domain.users.repository.IUserRepository;
+import com.teamra.appwswhisper.users.domain.model.User;
+import com.teamra.appwswhisper.users.domain.repository.IUserRepository;
 
 @Service
 public class DomainUserService implements UserService{

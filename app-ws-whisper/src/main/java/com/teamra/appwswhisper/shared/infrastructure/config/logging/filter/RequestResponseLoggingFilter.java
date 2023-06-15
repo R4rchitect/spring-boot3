@@ -1,4 +1,4 @@
-package com.teamra.appwswhisper.infrastructure.config.logging.filter;
+package com.teamra.appwswhisper.shared.infrastructure.config.logging.filter;
 
 import java.io.IOException;
 import java.util.UUID;

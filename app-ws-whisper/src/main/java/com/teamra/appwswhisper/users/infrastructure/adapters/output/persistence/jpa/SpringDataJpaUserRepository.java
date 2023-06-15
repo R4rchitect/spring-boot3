@@ -1,4 +1,4 @@
-package com.teamra.appwswhisper.infrastructure.adapters.output.persistence.jpa.user;
+package com.teamra.appwswhisper.users.infrastructure.adapters.output.persistence.jpa;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;

@@ -1,13 +1,13 @@
-package com.teamra.appwswhisper.infrastructure.adapters.output.persistence.jpa.user.impl;
+package com.teamra.appwswhisper.users.infrastructure.adapters.output.persistence.jpa.impl;
 
 
 
 import org.springframework.stereotype.Component;
 
-import com.teamra.appwswhisper.domain.users.model.User;
-import com.teamra.appwswhisper.domain.users.repository.IUserRepository;
-import com.teamra.appwswhisper.infrastructure.adapters.output.persistence.jpa.user.SpringDataJpaUserRepository;
-import com.teamra.appwswhisper.infrastructure.adapters.output.persistence.jpa.user.UserEntity;
+import com.teamra.appwswhisper.users.infrastructure.adapters.output.persistence.jpa.SpringDataJpaUserRepository;
+import com.teamra.appwswhisper.users.infrastructure.adapters.output.persistence.jpa.UserEntity;
+import com.teamra.appwswhisper.users.domain.model.User;
+import com.teamra.appwswhisper.users.domain.repository.IUserRepository;
 
 
 

@@ -1,4 +1,4 @@
-package com.teamra.appwswhisper.domain.users.model;
+package com.teamra.appwswhisper.users.domain.model;
 
 import java.io.Serializable;
 import java.util.Date;

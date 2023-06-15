@@ -1,9 +1,9 @@
-package com.teamra.appwswhisper.infrastructure.adapters.output.persistence.jpa.user;
+package com.teamra.appwswhisper.users.infrastructure.adapters.output.persistence.jpa;
 
 import java.io.Serializable;
 import java.util.Date;
 
-import com.teamra.appwswhisper.domain.users.model.User;
+import com.teamra.appwswhisper.users.domain.model.User;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

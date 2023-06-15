@@ -1,5 +1,5 @@
-package com.teamra.appwswhisper.domain.users.repository;
-import com.teamra.appwswhisper.domain.users.model.User;
+package com.teamra.appwswhisper.users.domain.repository;
+import com.teamra.appwswhisper.users.domain.model.User;
 
 public interface IUserRepository {
     
