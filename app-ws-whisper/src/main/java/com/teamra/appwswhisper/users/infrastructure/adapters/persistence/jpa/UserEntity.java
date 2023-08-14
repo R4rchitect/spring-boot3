@@ -1,4 +1,4 @@
-package com.teamra.appwswhisper.users.infrastructure.adapters.output.persistence.jpa;
+package com.teamra.appwswhisper.users.infrastructure.adapters.persistence.jpa;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -62,7 +62,7 @@ public class UserEntity implements Serializable {
 
     public User toUser(){
         User user = new User(idUsuario, usuario,  contrasenia,  nombres,  apellidos,  correo,
-             estado,  fechaCreacion);
+             estado, fechaCreacion);
         return user;
     }
 

@@ -1,10 +1,17 @@
 package com.teamra.appwswhisper.users.domain.repository;
+import java.util.Optional;
 import com.teamra.appwswhisper.users.domain.model.User;
 
-public interface IUserRepository {
+public interface IUserRepository{
     
  //   @Query(value="SELECT * FROM usuarios where id_usuario = :id_usuario", nativeQuery=true)
-    User findByIdUser(Integer id);
+    Optional<User> findById(Integer id);
+
+    void insert(User user);
+
+    void update(User user);
+
+    void removeById(Integer id);
 
  /*
     public abstract Cliente findByNombres(String nombres);
