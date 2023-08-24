@@ -7,15 +7,11 @@ import org.springframework.stereotype.Component;
 import com.teamra.appwswhisper.users.infrastructure.adapters.persistence.jpa.IH2UserRepository;
 import com.teamra.appwswhisper.users.infrastructure.adapters.persistence.jpa.UserEntity;
 
-import lombok.extern.slf4j.Slf4j;
 
 import com.teamra.appwswhisper.shared.domain.ApplicationException;
-import com.teamra.appwswhisper.users.domain.exception.UserNotFoundException;
 import com.teamra.appwswhisper.users.domain.model.User;
 import com.teamra.appwswhisper.users.domain.repository.IUserRepository;
 
-
-@Slf4j
 @Component
 public class H2UserRepository implements IUserRepository{
 
