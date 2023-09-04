@@ -6,14 +6,14 @@ from flask import Flask
 
 def get_shell_script_output_using_communicate():
    #fp = os.path.join('python', 'jacococli-dump.sh')
-    session = Popen(['./jacococli-dump.sh'], stdout=PIPE, stderr=PIPE)
+    session = Popen(['./jacoco-scripts/jacococli-dump.sh'], stdout=PIPE, stderr=PIPE)
     stdout, stderr = session.communicate()
     if stderr:
         raise Exception("Error "+str(stderr))
     return stdout.decode('utf-8')
 
 def get_shell_script_output_using_check_output():
-    stdout = check_output(['./jacococli-dump.sh']).decode('utf-8')
+    stdout = check_output(['./jacoco-scripts/jacococli-dump.sh']).decode('utf-8')
     return stdout
 
 app = Flask(__name__)
